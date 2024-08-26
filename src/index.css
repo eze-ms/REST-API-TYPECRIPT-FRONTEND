@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados para el placeholder */
+.placeholder-small::placeholder {
+  font-size: 0.875rem; /* Cambia este valor según tus necesidades */
+}
